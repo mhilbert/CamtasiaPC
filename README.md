@@ -4,12 +4,14 @@ ILIAS Plugin zur einfachen Einbindung von Camtasia-Videos über den ILIAS-Seiten
 
 ## Installation
 
-ILIAS 5.0.0 - 5.4.99
+ILIAS 10.0 - 10.999
 ```bash
-Customizing/global/plugins/Services/COPage/PageComponent/CamtasiaPC
+mkdir -p public/Customizing/global/plugins/Services/COPage/PageComponent
+cd public/Customizing/global/plugins/Services/COPage/PageComponent
+git clone https://github.com/mhilbert/CamtasiaPC.git
 ```
 **Wichtig: Das CamtasiaPC Plugin funktioniert nicht ohne das Camtasia Plugin!**
 
 ## Kontakt
 
-martin.gorgas@hrz.uni-giessen.de
+Mirco.Hilbert@hrz.uni-giessen.de

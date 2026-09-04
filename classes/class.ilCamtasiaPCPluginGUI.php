@@ -4,9 +4,9 @@
  *
  * @author Martin Gorgas <martin.gorgas@hrz.uni-giessen.de>
  **/
-require_once('Services/Form/classes/class.ilPropertyFormGUI.php');
-require_once('Services/COPage/classes/class.ilPageComponentPluginGUI.php');
-require_once('Services/Repository/classes/class.ilRepositorySelectorExplorerGUI.php');
+require_once(ILIAS_ABSOLUTE_PATH . '/components/ILIAS/Form/classes/class.ilPropertyFormGUI.php');
+require_once(ILIAS_ABSOLUTE_PATH . '/components/ILIAS/COPage/classes/class.ilPageComponentPluginGUI.php');
+require_once(ILIAS_ABSOLUTE_PATH . '/components/ILIAS/Repository/classes/class.ilRepositorySelectorExplorerGUI.php');
 
 /**
  * Class: ilCamtasiaPCPluginGUI

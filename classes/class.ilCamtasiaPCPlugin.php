@@ -4,7 +4,7 @@
  *
  * @author Martin Gorgas <martin.gorgas@hrz.uni-giessen.de>
  **/
-require_once('Services/COPage/classes/class.ilPageComponentPlugin.php');
+require_once(ILIAS_ABSOLUTE_PATH . '/components/ILIAS/COPage/classes/class.ilPageComponentPlugin.php');
 
 /**
  * Class: ilCamtasiaPCPlugin
